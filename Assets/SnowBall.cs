@@ -5,7 +5,7 @@ using UnityEngine;
 public class SnowBall : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float ballSpeed;
+    public float ballSpeed = 100;
     private Rigidbody2D theRB;
     public GameObject snowBallEffect;
     void Start()
